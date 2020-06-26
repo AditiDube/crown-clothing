@@ -34,11 +34,9 @@ export const createUserProfileDocument = async (userAuth, ...additionalData) => 
                ...additionalData
            })
        }catch(err){
-            console.log("Something went worng while creating user", err);
-            
+            console.error("Something went worng while creating user", err);      
        }
     }
-
     return userDocRef;
     
 }
