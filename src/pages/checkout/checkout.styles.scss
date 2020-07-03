@@ -28,4 +28,17 @@
       margin-left: auto;
       font-size: 36px;
     }
+
+    .checkout-info {
+      color: red;
+      font-size: large;
+      padding: 5px;
+      span {
+        padding: 5px 10px;
+      }
+      .info-title {
+        margin: 15px;
+        font-weight: bold;
+      }
+    }
   }
